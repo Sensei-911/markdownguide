@@ -106,13 +106,10 @@ I think you should use an
 
 # Syntax highlighting
 
-```
-```
-javascript
+```javascript
 const a = ('1')
 const b = ('2')
 console.log(a+b)
-```
 ```
 
 # Task Lists
