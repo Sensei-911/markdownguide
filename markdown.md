@@ -1,10 +1,10 @@
-Headings
+# Headings
 
 # This is an <h1> tag
 ## This is an <h2> tag
 ###### This is an <h6> tag
 
-Alternate Syntax
+## Alternate Syntax
 
 Heading level 1
 ===============
@@ -12,7 +12,7 @@ Heading level 1
 Heading level 2
 ---------------
 
-Paragraphs
+# Paragraphs
 
 Today is rainy i love rainy daiys.
 
@@ -20,10 +20,10 @@ But it's summer :C
 
 You can directly write your content
 
+# Emphasis
+
 **bold text**
 __bold text__
-
-Emphasis
 
 *italic*
 _italic_
@@ -39,16 +39,16 @@ __This will also be bold__
 _You **can** combine them_
 
 
-Lists
+# Lists
 
-Ordered
+## Ordered
 
 1. First item
 2. Second item
 3. Third item
 4. Fourth item
 
-Unordered
+## Unordered
 
 - First item
 - Second item
@@ -65,16 +65,16 @@ Unordered
 + Third item
 + Fourth item
 
-Images
+# Images
 
-![Message](/images/image.png)
+![Message](https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/91_Discord_logo_logos-512.png)
 
-Links
+# Links
 
 http://link.com - automatic!
 [Link](http://link.com)
 
-Blockquotes
+# Blockquotes
 
 To create a blockquote, add a > in front of a paragraph.
 
@@ -91,13 +91,13 @@ Blockquotes with Other Elements
 >
 >  *Some* text **but** italic and bold.
 
-Inline code
+# Inline code
 
 
 I think you should use an
 `<addr>` element here instead.
 
-Syntax highlighting
+# Syntax highlighting
 
 ```javascript
 const a = ('1')
@@ -105,14 +105,14 @@ const b = ('2')
 console.log(a+b)
 ```
 
-Task Lists
+# Task Lists
 
 - [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
 - [x] list syntax required (any unordered or ordered list supported)
 - [x] this is a complete item
 - [ ] this is an incomplete item
 
-Tables
+# Tables
 
 You can create tables by assembling a list of words and dividing them with hyphens - (for the first row), and then separating each column with a pipe |:
 
@@ -120,10 +120,3 @@ First Header | Second Header
 ------------ | -------------
 Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
-
-SHA references
-
-
-16c999e8c71134401a78d4d46435517b2271d6ac
-mojombo@16c999e8c71134401a78d4d46435517b2271d6ac
-mojombo/github-flavored-markdown@16c999e8c71134401a78d4d46435517b2271d6ac
